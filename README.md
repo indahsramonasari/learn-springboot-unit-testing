@@ -5,13 +5,12 @@ This is a simple CRUD project using java spring boot full rest APIs.
 This project using jdk 11 and mysql database.
 
 
-# ddl create schema and table
+# ddl create schema
 
-- create schema
+CREATE SCHEMA `LIBRARY`;
 
-*CREATE SCHEMA `LIBRARY`;
 
-- create table
+# ddl create table
 
 *CREATE TABLE `LIBRARIAN` (
   `ID` varchar(15) NOT NULL,
