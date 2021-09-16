@@ -1,8 +1,6 @@
 /Users/indahsramonasari/Documents/!LEARN/library-management-service/src/main/java/com/spring/librarymanagementservice/service/LibrarianService.java
-/Users/indahsramonasari/Documents/!LEARN/library-management-service/src/main/java/com/spring/librarymanagementservice/model/Book.java
 /Users/indahsramonasari/Documents/!LEARN/library-management-service/src/main/java/com/spring/librarymanagementservice/model/Librarian.java
 /Users/indahsramonasari/Documents/!LEARN/library-management-service/src/main/java/com/spring/librarymanagementservice/webcontroller/LibraryWebController.java
-/Users/indahsramonasari/Documents/!LEARN/library-management-service/src/main/java/com/spring/librarymanagementservice/repository/BookRespository.java
 /Users/indahsramonasari/Documents/!LEARN/library-management-service/src/main/java/com/spring/librarymanagementservice/domain/LibrarianDataRequest.java
 /Users/indahsramonasari/Documents/!LEARN/library-management-service/src/main/java/com/spring/librarymanagementservice/domain/LibrarianDataResponse.java
 /Users/indahsramonasari/Documents/!LEARN/library-management-service/src/main/java/com/spring/librarymanagementservice/config/InitConfig.java

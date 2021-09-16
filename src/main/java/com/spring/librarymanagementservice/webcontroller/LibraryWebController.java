@@ -2,8 +2,8 @@ package com.spring.librarymanagementservice.webcontroller;
 
 import com.spring.librarymanagementservice.domain.LibrarianDataRequest;
 import com.spring.librarymanagementservice.domain.LibrarianDataResponse;
+import com.spring.librarymanagementservice.domain.ResponseStatus;
 import com.spring.librarymanagementservice.service.LibrarianService;
-import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @Slf4j
-@Api
 @Controller
 @RequestMapping("/v1")
 public class LibraryWebController {
@@ -39,13 +38,13 @@ public class LibraryWebController {
 
     @PostMapping(value = "/saveLibrarianData", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public com.spring.librarymanagementservice.domain.ResponseStatus saveLibrarianData(@RequestBody LibrarianDataRequest librarianDataRequest) {
+    public ResponseStatus saveLibrarianData(@RequestBody LibrarianDataRequest librarianDataRequest) {
         return librarianService.saveLibrarianData(librarianDataRequest);
     }
 
     @PostMapping(value = "/updateLibrarianData", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public com.spring.librarymanagementservice.domain.ResponseStatus updateLibrarianData(@RequestBody LibrarianDataRequest librarianDataRequest) {
+    public ResponseStatus updateLibrarianData(@RequestBody LibrarianDataRequest librarianDataRequest) {
         return librarianService.updateLibrarianData(librarianDataRequest);
     }
 
